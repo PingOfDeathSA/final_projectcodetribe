@@ -11,8 +11,8 @@ section{
     
 }
 
-body{
-    font-family: 'Hanken Grotesk', sans-serif !important;
+.container{
+   font-family: 'Hanken Grotesk', sans-serif !important;
     margin: 0;
     margin-left: 20%;
     margin-right: 20%;
@@ -25,6 +25,9 @@ body{
     font-size: 18px;
     font-weight: 500;
     color: hsl(224, 30%, 27%);
+}
+body{
+    background-color: hsl(221, 100%, 96%);
 }
 
 .result-container{
@@ -230,8 +233,7 @@ font-size: 18px;
         
     }
     
-    body{
-
+    .container{
         font-family: 'Hanken Grotesk', sans-serif !important;
         margin: 0;
         margin-left: 0%;
@@ -241,10 +243,15 @@ font-size: 18px;
         display: flex;
         justify-content: center;
         align-items: center;
-        height: 100vh;
+        height: 130vh;
         font-size: 18px;
         font-weight: 500;
         color: hsl(224, 30%, 27%);
+    }
+    body{
+        background-color: white;
+
+        
     }
     
     .result-container{
@@ -438,5 +445,16 @@ font-size: 18px;
         align-items: center; 
     }
     
-    
+  
+  }
+
+  footer{
+    display: flex;
+    font-family: 'Hanken Grotesk', sans-serif !important;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    min-width: 100%;
+    max-width: 100%;
+    width: 100%;
   }
