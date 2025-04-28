@@ -6,7 +6,8 @@ section{
  margin: 0;
  padding: 0px;
 
-height: 42vh;
+ max-height: 390px;
+ min-height: 42vh;
  min-width: 550px;
  max-width: 600px;
     background-color: white;
