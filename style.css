@@ -1,24 +1,30 @@
 section{
     display: flex;
-    justify-content: start;
+    justify-content: center;
     align-items: center;
  border-radius: 25px;
  margin: 0;
  padding: 0px;
- height: 42vh;
+
+height: 42vh;
  min-width: 550px;
+ max-width: 600px;
     background-color: white;
     
 }
 
-.container{
-   font-family: 'Hanken Grotesk', sans-serif !important;
+
+body{
+    background-color: hsl(221, 100%, 96%);
+    font-family: 'Hanken Grotesk', sans-serif !important;
     margin: 0;
     margin-left: 20%;
     margin-right: 20%;
     padding: 0;
     background-color: hsl(221, 100%, 96%);
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr;
+    place-items: center;
     justify-content: center;
     align-items: center;
     height: 100vh;
@@ -26,14 +32,12 @@ section{
     font-weight: 500;
     color: hsl(224, 30%, 27%);
 }
-body{
-    background-color: hsl(221, 100%, 96%);
-}
 
 .result-container{
     max-width: 290px;
     width: 50%;
-    height: 42vh;
+    max-height: 400px;
+    min-height: 42vh;
     margin: 0;
     background: linear-gradient(to bottom, hsl(252, 100%, 67%), hsl(241, 81%, 54%));
     border-radius: 25px;
@@ -232,25 +236,22 @@ font-size: 18px;
         background-color: white;
         
     }
-    
-    .container{
+ 
+    body{
         font-family: 'Hanken Grotesk', sans-serif !important;
         margin: 0;
         margin-left: 0%;
         margin-right: 0%;
         padding: 0;
         background-color: white;
-        display: flex;
+        display: grid;
+        grid-template-columns: 1fr;
         justify-content: center;
         align-items: center;
-        height: 130vh;
+        height: 100vh;
         font-size: 18px;
         font-weight: 500;
         color: hsl(224, 30%, 27%);
-    }
-    body{
-        background-color: white;
-
         
     }
     
@@ -259,6 +260,7 @@ font-size: 18px;
         width: 100%;
         height: 58%;
         padding-top: 25px;
+        padding-bottom: 25px;
         background: linear-gradient(to bottom, hsl(252, 100%, 67%), hsl(241, 81%, 54%));
         border-bottom-left-radius: 25px;
         border-bottom-right-radius: 25px;
